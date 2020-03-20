@@ -1,0 +1,16 @@
+a8a4d1d999abaa86fb27b3796bcc5a28 *DESCRIPTION
+22015428517bcc1d59ddad61fac02cc9 *LICENSE
+14a5a5de8ea252c62c8c75f724e9b392 *NAMESPACE
+782345ff32e70af8d068d04e4f19ff30 *R/c2num-utils.R
+f42ad8883ed37e8c7ae92e3a68e5bf71 *R/c2num.R
+63a8144209e97262f92a84ce2c9d57e4 *R/cnum-package.R
+d0deb4e4d0d7be71844a7707c51759c9 *R/cnum-tools.R
+e69a45fe7dcb5e24ded0c6e3a5fb0fa6 *R/conversion.R
+b4388f4b5d1bbc76f296b237ed1988c5 *R/data-utils.R
+7375b949f794c59cc9be67086ed43089 *R/num2c-utils.R
+e702abbab824bbcfffa8606df123b3a7 *R/num2c.R
+8612aa7e12981a0fc8b1c1b7e273c0ab *R/sysdata.rda
+f5a479b17877acf1217db53801097618 *README.md
+e47c3c77102b7b3ee8b172095ba13393 *man/cnum-package.Rd
+527abf0b51df34e61ee5544715ceb9ea *man/conversion.Rd
+8fd1d218a3610fa0188c00635c40c762 *man/tools.Rd

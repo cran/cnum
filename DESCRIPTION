@@ -1,8 +1,9 @@
 Package: cnum
 Type: Package
 Title: Chinese Numerals Processing
-Version: 0.1.0
-Author: Elgar Teo
+Version: 0.1.1
+Authors@R: person("Elgar", "Teo", email = "elgarteo@connect.hku.hk",
+    role = c("aut", "cre"))
 Maintainer: Elgar Teo <elgarteo@connect.hku.hk>
 URL: https://github.com/elgarteo/cnum/
 BugReports: https://github.com/elgarteo/cnum/issues
@@ -23,6 +24,7 @@ Suggests: magrittr
 LazyData: true
 RoxygenNote: 7.1.0
 NeedsCompilation: no
-Packaged: 2020-03-17 15:14:30 UTC; Elgar
+Packaged: 2020-04-13 07:19:25 UTC; Elgar
+Author: Elgar Teo [aut, cre]
 Repository: CRAN
-Date/Publication: 2020-03-20 12:50:10 UTC
+Date/Publication: 2020-04-13 08:00:02 UTC

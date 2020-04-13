@@ -13,20 +13,18 @@
 #'
 #' @export
 #'
-num2c <- function(x, lang = "tc", mode = "casual", financial = FALSE, literal = FALSE, single = FALSE) {
+num2c <- function(x, lang = default_cnum_lang(), mode = "casual", financial = FALSE, literal = FALSE, single = FALSE) {
   if (length(x) > 1) {
     return(sapply(x, function(y) num2c(y, lang, mode, financial, single)))
   }
   if (!is.numeric(x)) {
     stop("`x` must be numeric.")
   }
-
-  conv_t <- conv_table(lang, mode, financial)
-  maximum <- 10^max(conv_t[["scale_t"]]$n)
   if (abs(x) > 1e18) {
     stop("Absolute value of `x` must not be greater than ", 1e18, ".")
   }
 
+  conv_t <- conv_table(lang, mode, financial)
   if (x < 0) {
     neg_chr <- conv_t[["neg"]]
     x <- gsub("-", "", x)

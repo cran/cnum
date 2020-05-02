@@ -67,7 +67,7 @@ Disregarded when \code{strict = TRUE}.}
   numerals or not for each element of \code{x}).
 
 \code{has_cnum} returns a logical vector indicating contains Chinese
-  numerals or not for each element of \code{x}).
+  numerals or not for each element of \code{x}.
 
 \code{extract_cnum} returns a list of character vectors containing
   the extracted Chinese numerals.
@@ -78,11 +78,14 @@ string.
 }
 \section{Functions}{
 \itemize{
-\item \code{is_cnum}: Test if character object is Chinese numerals
+\item \code{is_cnum}: Test if character object is Chinese numerals. A wrapper
+around \code{\link[base]{grepl}}.
 
-\item \code{has_cnum}: Test if string contains Chinese numerals
+\item \code{has_cnum}: Test if string contains Chinese numerals. A wrapper around
+\code{\link[base]{grepl}}.
 
-\item \code{extract_cnum}: Extract Chinese numerals from string
+\item \code{extract_cnum}: Extracts Chinese numerals from string. A wrapper around
+\code{\link[stringr]{str_extract_all}} from \code{stringr}.
 }}
 
 \section{Details}{
@@ -97,15 +100,15 @@ string.
   SI prefix system used in mainland China as stipulated in the document
   \emph{China Statutory Measurement Units}.} \item{\code{"SIprefixPRClong"}:
   }{ a variant of \code{"SIprefixPRC"} with long prefixes, e.g. 1e+09 is
-  referred to as "\emph{jika}" instead of "\emph{ji}".} }
+  referred to as "\emph{yi jika}" instead of "\emph{yi ji}".} }
 }
 
 \examples{
-is_cnum("hello")
+is_cnum("yibai ershiyi")
 
-has_cnum("hello")
+has_cnum("yibai bashi yuan")
 
-extract_cnum("hello")
+extract_cnum("shisiyi ren")
 
 }
 \references{

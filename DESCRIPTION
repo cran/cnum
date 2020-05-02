@@ -1,7 +1,7 @@
 Package: cnum
 Type: Package
 Title: Chinese Numerals Processing
-Version: 0.1.1
+Version: 0.1.2
 Authors@R: person("Elgar", "Teo", email = "elgarteo@connect.hku.hk",
     role = c("aut", "cre"))
 Maintainer: Elgar Teo <elgarteo@connect.hku.hk>
@@ -19,12 +19,14 @@ Description: Chinese numerals processing in R, such as conversion between
 License: MIT + file LICENSE
 Encoding: UTF-8
 Depends: R(>= 2.10)
-Imports: stringr
+Imports: stringr, Rcpp
 Suggests: magrittr
+LinkingTo: Rcpp, BH
+SystemRequirements: C++11
 LazyData: true
 RoxygenNote: 7.1.0
-NeedsCompilation: no
-Packaged: 2020-04-13 07:19:25 UTC; Elgar
+NeedsCompilation: yes
+Packaged: 2020-04-30 11:21:52 UTC; Elgar
 Author: Elgar Teo [aut, cre]
 Repository: CRAN
-Date/Publication: 2020-04-13 08:00:02 UTC
+Date/Publication: 2020-05-02 14:40:06 UTC

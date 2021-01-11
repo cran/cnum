@@ -30,6 +30,8 @@ extract_cnum(
   lang = default_cnum_lang(),
   mode = "casual",
   financial = FALSE,
+  prefix = NULL,
+  suffix = NULL,
   ...
 )
 }
@@ -61,6 +63,14 @@ test)}
 \code{is_cnum} and \code{has_cnum}) or
 \code{\link[stringr]{str_extract_all}} (for \code{extract_cnum}).
 Disregarded when \code{strict = TRUE}.}
+
+\item{prefix}{the prefix of the Chinese numerals. Only numerals with the
+designated prefix are extracted. Supports \link[base:regex]{regular
+expression}(s).}
+
+\item{suffix}{the suffix of the Chinese numerals. Only numerals with the
+designated suffix are extracted. Supports \link[base:regex]{regular
+expression}(s).}
 }
 \value{
 \code{is_cnum} returns a logical vector indicating is Chinese

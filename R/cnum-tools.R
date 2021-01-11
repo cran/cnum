@@ -11,6 +11,14 @@
 #'   (e.g. "\emph{yi bai yi}" will pass the casual test and fail the strict
 #'   test)
 #'
+#' @param prefix the prefix of the Chinese numerals. Only numerals with the
+#'   designated prefix are extracted. Supports \link[base:regex]{regular
+#'   expression}(s).
+#'
+#' @param suffix the suffix of the Chinese numerals. Only numerals with the
+#'   designated suffix are extracted. Supports \link[base:regex]{regular
+#'   expression}(s).
+#'
 #' @param ... optional arguments to be passed to \code{\link[base]{grepl}} (for
 #'   \code{is_cnum} and \code{has_cnum}) or
 #'   \code{\link[stringr]{str_extract_all}} (for \code{extract_cnum}).
@@ -88,6 +96,7 @@ has_cnum <- function(x, lang = default_cnum_lang(), mode = "casual", financial =
 #'
 #' @export
 #'
-extract_cnum <- function(x, lang = default_cnum_lang(), mode = "casual", financial = FALSE, ...) {
-  stringr::str_extract_all(x, return_regex(lang, mode, financial, FALSE), ...)
+extract_cnum <- function(x, lang = default_cnum_lang(), mode = "casual", financial = FALSE,
+                         prefix = NULL, suffix = NULL, ...) {
+  stringr::str_extract_all(x, return_regex(lang, mode, financial, FALSE, prefix, suffix), ...)
 }

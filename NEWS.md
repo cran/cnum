@@ -1,6 +1,10 @@
+# cnum 0.1.3
+
+* Added optional prefix and suffix for `extract_cnum()`
+
 # cnum 0.1.2
 
-* Conversion algorithm is reritten in C++ for better performance
+* Conversion algorithm is rewritten in C++ for better performance
 
 * Fixed reliability when converting decimal with leading zeros
 

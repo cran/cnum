@@ -1,7 +1,7 @@
-72f11a4db29187621551afecd4e2190f *DESCRIPTION
+42361e1a1d14e1979d12984ca94f21e7 *DESCRIPTION
 22015428517bcc1d59ddad61fac02cc9 *LICENSE
 1843c7d404837b174a3ce2aed1da7c77 *NAMESPACE
-f81afa4788a8f9c2af085f09c0647936 *NEWS.md
+317c669cbf669548620987fef6ea4e71 *NEWS.md
 b811645c3aafcc25d03146dcd1068e36 *R/RcppExports.R
 c486065b2d48bd24d30df840ab2a1a4b *R/c2num-utils.R
 5a9cba7b70228f766503427a281aaf86 *R/c2num.R
@@ -10,12 +10,12 @@ c486065b2d48bd24d30df840ab2a1a4b *R/c2num-utils.R
 303e6513facc7fb14c5359996d4b91e8 *R/conversion.R
 24526ea69e159a9928a45868256f1229 *R/data-utils.R
 27c8c002152f6dbde56f413668d09695 *R/default-lang.R
-4a8318c6271b12cacee09e418aa729db *R/num2c-utils.R
-cf4435d747ef0238db0718ef9973782e *R/num2c.R
+8ae01fc1b5c2b58fd70a6ce7eaa7ba08 *R/num2c-utils.R
+dc4ec93fb10f3ca2371c752fed1aee51 *R/num2c.R
 8612aa7e12981a0fc8b1c1b7e273c0ab *R/sysdata.rda
 7d8106a87f8b1f83c141b822b18c28f5 *README.md
 61ea2756191d5fa8220291d4112da396 *man/cnum-package.Rd
-f705c8da718e8fd04a19fe1ba1498e83 *man/conversion.Rd
+6003f18896395e60d75b0cea0aaa76ff *man/conversion.Rd
 332925bcd9825333811d5bed63abe790 *man/default_cnum_lang.Rd
 5504cfac5b1b0a106892862272baa094 *man/tools.Rd
 ba683e1a9b544573e88d0a953b674818 *src/RcppExports.cpp

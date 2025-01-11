@@ -1,7 +1,7 @@
 Package: cnum
 Type: Package
 Title: Chinese Numerals Processing
-Version: 0.1.4
+Version: 0.1.5
 Authors@R: person("Elgar", "Teo", email = "elgarteo@connect.hku.hk",
     role = c("aut", "cre"))
 Maintainer: Elgar Teo <elgarteo@connect.hku.hk>
@@ -24,7 +24,7 @@ Suggests: magrittr
 LinkingTo: Rcpp, BH
 RoxygenNote: 7.3.2
 NeedsCompilation: yes
-Packaged: 2025-01-11 05:26:47 UTC; Elgar
+Packaged: 2025-01-11 17:28:13 UTC; Elgar
 Author: Elgar Teo [aut, cre]
 Repository: CRAN
-Date/Publication: 2025-01-11 06:00:10 UTC
+Date/Publication: 2025-01-11 22:00:02 UTC
